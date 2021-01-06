@@ -95,6 +95,7 @@ const SIGNATURES: [(&str, &[ValueType], Option<ValueType>); 24] = [
     ("ontio_get_input", &[ValueType::I32], None),
     ("ontio_get_call_output", &[ValueType::I32], None),
     ("ontio_self_address", &[ValueType::I32], None),
+    ("ontio_gas_info", &[ValueType::I32], None),
     ("ontio_caller_address", &[ValueType::I32], None),
     ("ontio_entry_address", &[ValueType::I32], None),
     ("ontio_check_witness", &[ValueType::I32], Some(ValueType::I32)),
